@@ -249,10 +249,10 @@ void Start()
         for (h = 0;  h< 300; h+=1) {
             for (w = 175; w < 512; w+=1) {
 
-                heightMap[h, w] = (1f - ((depthData[w + (h * 512)] / 1500f)) + heights[h, w]) * 0.7f;
-                if(heightMap[h, w] > 0.65f)
+                heightMap[h + 106, w-88] = (1f - ((depthData[w + (h * 512)] / 1500f)) + heights[h+106, w-88]) * 0.7f;
+                if(heightMap[h + 106, w -88] > 0.65f)
                 {
-                    heightMap[h, w] = 0;
+                    heightMap[h + 106, w -88] = 0;
                 }
                 //heightMap[h, w] = (depthData[w + (h * 512)]/2460 + heights[h, w]) * .2f;
             }
