@@ -34,7 +34,7 @@ public class DepthSourceView : MonoBehaviour
     private DepthSourceManager _DepthManager;
 
     public float period = 0.0f;
-    float[] depthLookUp = new float[2048];
+    // float[] depthLookUp = new float[2048];
        
 
 void Start()
@@ -47,10 +47,11 @@ void Start()
 
             // Downsample to lower resolution
             //CreateMesh(frameDesc.Width / _DownsampleSize, frameDesc.Height / _DownsampleSize);
-            for (int i = 0; i < depthLookUp.Length; i++)
-            {
-                depthLookUp[i] = rawDepthToMeters(i);
-            }
+            
+       //     for (int i = 0; i < depthLookUp.Length; i++)
+      //      {
+        //        depthLookUp[i] = rawDepthToMeters(i);
+       //     }
 
             if (!_Sensor.IsOpen)
             {
@@ -178,7 +179,7 @@ void Start()
                 return;
             }
 
-            gameObject.GetComponent<Renderer>().material.mainTexture = _ColorManager.GetColorTexture();
+            //   gameObject.GetComponent<Renderer>().material.mainTexture = _ColorManager.GetColorTexture();
             RefreshData(_DepthManager.GetData(),
                 _ColorManager.ColorWidth,
                 _ColorManager.ColorHeight);
@@ -244,10 +245,11 @@ void Start()
         int ny = Terrain.terrainData.heightmapHeight;
         float[,] heights = Terrain.terrainData.GetHeights(0, 0, nx, ny);
 
-        for (h = 0; h < 400; h+=1) {
-            for (w = 0; w < 513; w+=1) {
-                heightMap[h, w] = (1f - ((depthData[w + (h * 512)] / 1500f)) + heights[h, w]) * .7f;
-                if(heightMap[h, w] > 0.3f)
+        // Remove marigins of test environment in room 6A by setting max(h)=300 and min(w)=175
+        for (h = 0;  h< 300; h+=1) {
+            for (w = 175; w < 512; w+=1) {
+                heightMap[h, w] = (1f - ((depthData[w + (h * 512)] / 1300f)) + heights[h, w]) * 0.7f;
+                if(heightMap[h, w] > 0.5f)
                 {
                     heightMap[h, w] = 0;
                 }
@@ -262,33 +264,33 @@ void Start()
 
         Terrain.terrainData.SetHeights(0, 0, heightMap);
         
-        ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length];
-        _Mapper.MapDepthFrameToColorSpace(depthData, colorSpace);
+        //ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length];
+        //_Mapper.MapDepthFrameToColorSpace(depthData, colorSpace);
         
-        for (int y = 0; y < frameDesc.Height; y += _DownsampleSize)
-        {
-            for (int x = 0; x < frameDesc.Width; x += _DownsampleSize)
-            {
-                int indexX = x / _DownsampleSize;
-                int indexY = y / _DownsampleSize;
-                int smallIndex = (indexY * (frameDesc.Width / _DownsampleSize)) + indexX;
+        //for (int y = 0; y < frameDesc.Height; y += _DownsampleSize)
+        //{
+        //    for (int x = 0; x < frameDesc.Width; x += _DownsampleSize)
+        //    {
+        //        int indexX = x / _DownsampleSize;
+        //        int indexY = y / _DownsampleSize;
+        //        int smallIndex = (indexY * (frameDesc.Width / _DownsampleSize)) + indexX;
                 
-                double avg = GetAvg(depthData, x, y, frameDesc.Width, frameDesc.Height);
+        //        double avg = GetAvg(depthData, x, y, frameDesc.Width, frameDesc.Height);
                 
-                avg = avg * _DepthScale;
+        //        avg = avg * _DepthScale;
                 
-                _Vertices[smallIndex].z = (float)avg;
+        //        _Vertices[smallIndex].z = (float)avg;
 
-                // Update UV mapping with CDRP
-                var colorSpacePoint = colorSpace[(y * frameDesc.Width) + x];
-                _UV[smallIndex] = new Vector2(colorSpacePoint.X / colorWidth, colorSpacePoint.Y / colorHeight);
-            }
-        }
+        //        // Update UV mapping with CDRP
+        //        var colorSpacePoint = colorSpace[(y * frameDesc.Width) + x];
+        //        _UV[smallIndex] = new Vector2(colorSpacePoint.X / colorWidth, colorSpacePoint.Y / colorHeight);
+        //    }
+        //}
         
-        _Mesh.vertices = _Vertices;
-        _Mesh.uv = _UV;
-        _Mesh.triangles = _Triangles;
-        _Mesh.RecalculateNormals();
+        //_Mesh.vertices = _Vertices;
+        //_Mesh.uv = _UV;
+        //_Mesh.triangles = _Triangles;
+        //_Mesh.RecalculateNormals();
     }
  
        

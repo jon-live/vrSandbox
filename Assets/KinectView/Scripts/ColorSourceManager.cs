@@ -26,9 +26,11 @@ public class ColorSourceManager : MonoBehaviour
             _Reader = _Sensor.ColorFrameSource.OpenReader();
             
             var frameDesc = _Sensor.ColorFrameSource.CreateFrameDescription(ColorImageFormat.Rgba);
+
             ColorWidth = frameDesc.Width;
             ColorHeight = frameDesc.Height;
-            
+
+
             _Texture = new Texture2D(frameDesc.Width, frameDesc.Height, TextureFormat.RGBA32, false);
             _Data = new byte[frameDesc.BytesPerPixel * frameDesc.LengthInPixels];
             
