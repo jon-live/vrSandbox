@@ -248,8 +248,9 @@ void Start()
         // Remove marigins of test environment in room 6A by setting max(h)=300 and min(w)=175
         for (h = 0;  h< 300; h+=1) {
             for (w = 175; w < 512; w+=1) {
-                heightMap[h, w] = (1f - ((depthData[w + (h * 512)] / 1300f)) + heights[h, w]) * 0.7f;
-                if(heightMap[h, w] > 0.5f)
+
+                heightMap[h, w] = (1f - ((depthData[w + (h * 512)] / 1500f)) + heights[h, w]) * 0.7f;
+                if(heightMap[h, w] > 0.65f)
                 {
                     heightMap[h, w] = 0;
                 }
