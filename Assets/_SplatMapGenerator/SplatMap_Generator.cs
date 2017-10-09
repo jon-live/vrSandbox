@@ -3,7 +3,7 @@ using UnityEngine;
 using System.Collections;
 using System.Linq; // used for Sum of array
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class SplatMap_Generator : MonoBehaviour 
 {
 	// Get the attached terrain component

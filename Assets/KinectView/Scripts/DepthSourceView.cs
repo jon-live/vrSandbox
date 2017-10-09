@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Windows.Kinect;
+using System.Linq; // used for Sum of array
+
 
 public enum DepthViewMode
 {
@@ -246,14 +248,14 @@ void Start()
         float[,] heights = Terrain.terrainData.GetHeights(0, 0, nx, ny);
 
         // Remove marigins of test environment in room 6A by setting max(h)=300 and min(w)=175
+       // Debug.Log(depthData[1200]);
         for (h = 0;  h< 300; h+=1) {
-            for (w = 175; w < 512; w+=1) {
-
-                heightMap[h + 106, w-88] = (1f - ((depthData[w + (h * 512)] / 1500f)) + heights[h+106, w-88]) * 0.7f;
-                if(heightMap[h + 106, w -88] > 0.65f)
-                {
-                    heightMap[h + 106, w -88] = 0;
-                }
+            for (w = 180; w < 512; w+=1) {
+                heightMap[h + 107, w-90] = (1f - ((depthData[w + (h * 512)] / 1500f)) + heights[h+107, w-90]) * 0.7f;
+               if(heightMap[h + 107, w -90] > 0.65f)
+              {
+                    heightMap[h + 107, w -90] = 0;
+               }
                 //heightMap[h, w] = (depthData[w + (h * 512)]/2460 + heights[h, w]) * .2f;
             }
         }
@@ -264,10 +266,10 @@ void Start()
         //Debug.Log(depthLookUp[depthData[200 + (200 * 512)]]);
 
         Terrain.terrainData.SetHeights(0, 0, heightMap);
-        
+
         //ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length];
         //_Mapper.MapDepthFrameToColorSpace(depthData, colorSpace);
-        
+
         //for (int y = 0; y < frameDesc.Height; y += _DownsampleSize)
         //{
         //    for (int x = 0; x < frameDesc.Width; x += _DownsampleSize)
@@ -275,11 +277,11 @@ void Start()
         //        int indexX = x / _DownsampleSize;
         //        int indexY = y / _DownsampleSize;
         //        int smallIndex = (indexY * (frameDesc.Width / _DownsampleSize)) + indexX;
-                
+
         //        double avg = GetAvg(depthData, x, y, frameDesc.Width, frameDesc.Height);
-                
+
         //        avg = avg * _DepthScale;
-                
+
         //        _Vertices[smallIndex].z = (float)avg;
 
         //        // Update UV mapping with CDRP
@@ -287,13 +289,14 @@ void Start()
         //        _UV[smallIndex] = new Vector2(colorSpacePoint.X / colorWidth, colorSpacePoint.Y / colorHeight);
         //    }
         //}
-        
+
         //_Mesh.vertices = _Vertices;
         //_Mesh.uv = _UV;
         //_Mesh.triangles = _Triangles;
         //_Mesh.RecalculateNormals();
     }
  
+
        
     private double GetAvg(ushort[] depthData, int x, int y, int width, int height)
     {
