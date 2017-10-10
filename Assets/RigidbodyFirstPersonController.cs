@@ -129,6 +129,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void Update()
         {
+            OVRInput.Update();
             RotateView();
 
             if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump)
@@ -140,6 +141,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void FixedUpdate()
         {
+            OVRInput.FixedUpdate();
             GroundCheck();
             Vector2 input = GetInput();
 
@@ -212,12 +214,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private Vector2 GetInput()
         {
-            
             Vector2 input = new Vector2
                 {
-                    x = CrossPlatformInputManager.GetAxis("Horizontal"),
-                    y = CrossPlatformInputManager.GetAxis("Vertical")
-                };
+                 
+                //    x = CrossPlatformInputManager.GetAxis("Horizontal"),
+                 //   y = CrossPlatformInputManager.GetAxis("Vertical")
+                  x = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick).x,
+                  y = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick).y
+
+            };
+            Debug.Log(input);
 			movementSettings.UpdateDesiredTargetSpeed(input);
             return input;
         }
