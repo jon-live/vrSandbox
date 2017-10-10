@@ -45,7 +45,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 					CurrentTargetSpeed = ForwardSpeed;
 				}
 #if !MOBILE_INPUT
-	            if (Input.GetKey(RunKey))
+	          //  if (Input.GetKey(RunKey))
+
+                if (OVRInput.Get(OVRInput.Button.Two))
 	            {
 		            CurrentTargetSpeed *= RunMultiplier;
 		            m_Running = true;
@@ -132,7 +134,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
             OVRInput.Update();
             RotateView();
 
-            if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump)
+         //   if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump)
+         //   {
+         //      m_Jump = true;
+         //   }
+
+            if (OVRInput.Get(OVRInput.Button.One) && !m_Jump)
             {
                 m_Jump = true;
             }
@@ -223,7 +230,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                   y = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick).y
 
             };
-            Debug.Log(input);
 			movementSettings.UpdateDesiredTargetSpeed(input);
             return input;
         }
