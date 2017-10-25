@@ -54,7 +54,7 @@ void Start()
       //      {
         //        depthLookUp[i] = rawDepthToMeters(i);
        //     }
-
+         
             if (!_Sensor.IsOpen)
             {
                 _Sensor.Open();
@@ -263,7 +263,7 @@ void Start()
         //Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f);
         //Debug.Log(depthData[200 + (200 * 512)]);
 
-        //Debug.Log(depthLookUp[depthData[200 + (200 * 512)]]);
+        //Debug.Log(depthLookUp[depthData[200 + (200 * 512)]]); 
 
         Terrain.terrainData.SetHeights(0, 0, heightMap);
 
