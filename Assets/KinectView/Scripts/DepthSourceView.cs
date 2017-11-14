@@ -54,7 +54,7 @@ void Start()
       //      {
         //        depthLookUp[i] = rawDepthToMeters(i);
        //     }
-
+         
             if (!_Sensor.IsOpen)
             {
                 _Sensor.Open();
@@ -180,7 +180,6 @@ void Start()
             {
                 return;
             }
-
             //   gameObject.GetComponent<Renderer>().material.mainTexture = _ColorManager.GetColorTexture();
             RefreshData(_DepthManager.GetData(),
                 _ColorManager.ColorWidth,
@@ -240,7 +239,7 @@ void Start()
     {
 
         var frameDesc = _Sensor.DepthFrameSource.FrameDescription;
-        float[,] heightMap = new float[513, 513];
+        float[,] heightMap = new float[512, 512];
         int w = 0;
         int h = 0;
         int nx = Terrain.terrainData.heightmapWidth;
@@ -248,7 +247,6 @@ void Start()
         float[,] heights = Terrain.terrainData.GetHeights(0, 0, nx, ny);
 
         // Remove marigins of test environment in room 6A by setting max(h)=300 and min(w)=175
-       // Debug.Log(depthData[1200]);
         for (h = 0;  h< 300; h+=1) {
             for (w = 180; w < 512; w+=1) {
                 heightMap[h + 107, w-90] = (1f - ((depthData[w + (h * 512)] / 1500f)) + heights[h+107, w-90]) * 0.7f;
@@ -256,14 +254,14 @@ void Start()
               {
                     heightMap[h + 107, w -90] = 0;
                }
-                //heightMap[h, w] = (depthData[w + (h * 512)]/2460 + heights[h, w]) * .2f;
+        //        //heightMap[h, w] = (depthData[w + (h * 512)]/2460 + heights[h, w]) * .2f;
             }
         }
 
         //Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f);
         //Debug.Log(depthData[200 + (200 * 512)]);
 
-        //Debug.Log(depthLookUp[depthData[200 + (200 * 512)]]);
+        //Debug.Log(depthLookUp[depthData[200 + (200 * 512)]]); 
 
         Terrain.terrainData.SetHeights(0, 0, heightMap);
 
