@@ -45,9 +45,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 					CurrentTargetSpeed = ForwardSpeed;
 				}
 #if !MOBILE_INPUT
-	          //  if (Input.GetKey(RunKey))
+	            if (Input.GetKey(RunKey))
 
-                if (OVRInput.Get(OVRInput.Button.Two))
+              //  if (OVRInput.Get(OVRInput.Button.Two))
 	            {
 		            CurrentTargetSpeed *= RunMultiplier;
 		            m_Running = true;
@@ -224,10 +224,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             Vector2 input = new Vector2
                 {
 
-                    x = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick).x,
-                    y = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick).y
-                  //  x = CrossPlatformInputManager.GetAxis("Horizontal"),
-                  //  y = CrossPlatformInputManager.GetAxis("Vertical")
+                 //   x = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick).x,
+                 //   y = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick).y
+                    x = CrossPlatformInputManager.GetAxis("Horizontal"),
+                    y = CrossPlatformInputManager.GetAxis("Vertical")
 
 
             };
