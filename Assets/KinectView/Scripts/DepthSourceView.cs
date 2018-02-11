@@ -246,12 +246,15 @@ void Start()
         int nx = Terrain.terrainData.heightmapWidth;
         int ny = Terrain.terrainData.heightmapHeight;
         float[,] heights = Terrain.terrainData.GetHeights(0, 0, nx, ny);
-        // Debug.Log((Math.Abs(heightMap[207, 200] - heights[207, 200]) / heights[207, 200]));
+         Debug.Log((Math.Abs(heightMap[307, 200] - heights[307, 200]) / heights[307, 200]));
         // Remove marigins of test environment in room 6A by setting max(h)=300 and min(w)=175
         for (h = 0;  h< 300; h+=1) {
             for (w = 180; w < 512; w+=1) {
+                if (heights[h + 107, w - 90] != 0 & Math.Abs(heightMap[h + 107, w - 90] - heights[h + 107, w - 90]) / heights[h + 107, w - 90] <= 0.2)
+                    heightMap[h + 107, w - 90] = heights[h + 107, w - 90];
+                else
                     heightMap[h + 107, w - 90] = (1f - ((depthData[w + (h * 512)] / 1500f)) + heights[h + 107, w - 90]) * 0.8f;
-                if (heightMap[h + 107, w -90] > 0.65f)
+                if (heightMap[h + 107, w -90] > 0.72f)
               {
                     heightMap[h + 107, w -90] = 0;
                }
