@@ -132,9 +132,11 @@ namespace Com.MyCompany.MyGame
         {
             Debug.Log(PhotonNetwork.playerName + " create the game.");
             prePlayerName = PhotonNetwork.playerName;
-           GameObject go = PhotonNetwork.Instantiate(this.playerPrefab.name, new Vector3(0f, 12f, 0f), Quaternion.identity, 0);
+           GameObject go = PhotonNetwork.Instantiate(this.playerPrefab.name, new Vector3(0f, 2f, 0f), Quaternion.identity, 0);
             if (go.GetComponent<PhotonView>().isMine)
                 go.GetComponent<Renderer>().material.color = Color.red;
+            else
+                Debug.Log("XXXXXXXXXXXXXXXllo");
         }
     }
 }

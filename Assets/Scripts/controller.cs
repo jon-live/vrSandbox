@@ -11,7 +11,7 @@ public class controller : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (GetComponent<PhotonView>().isMine)
-            transform.Translate(0.2f * Time.deltaTime, 0f, 0f);
+            transform.Translate(0.1f * Time.deltaTime, 0f, 0f);
 	
 	}
 }
