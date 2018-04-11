@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7d57ad-06c6-436b-9633-a60c8ec98397" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" afterPath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/controller.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/controller.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/TerrainHeightShader.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/TerrainHeightShader.shader.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vrSandbox/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.vrSandbox/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" afterPath="$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset" afterPath="$PROJECT_DIR$/Assets/New Terrain 1.asset" />
       <change beforePath="$PROJECT_DIR$/Assets/VRClay.unity" afterPath="$PROJECT_DIR$/Assets/VRClay.unity" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +15,73 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="controller.cs" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="controller.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/controller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepthSourceView.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="254" column="85" lean-forward="false" selection-start-line="254" selection-start-column="85" selection-end-line="254" selection-end-column="85" />
+              <folding>
+                <marker date="1522881000737" expanded="false" signature="6:124" ph="..." />
+                <marker date="1522881000737" expanded="true" signature="151:205" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="251:11366" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="1077:1709" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="1157:1703" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+                <marker date="1522881000737" expanded="true" signature="1633:1693" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="1753:2273" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+                <marker date="1522881000737" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+                <marker date="1522881000737" expanded="true" signature="2317:3765" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="2630:3624" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="2684:3614" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="3000:3600" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="3787:3996" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="4016:6748" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="4051:4091" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="4142:4419" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="4212:4304" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="4321:4409" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="4763:5606" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="4817:4869" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="5004:5056" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="5113:5165" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="5300:5352" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="5619:6741" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="5673:5725" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="5860:5912" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="6135:6332" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="6375:6572" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="6792:6957" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="6829:6928" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="7041:9551" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="7515:8181" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="7558:8171" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="7981:8064" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="8191:8363" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+                <marker date="1522881000737" expanded="true" signature="8431:9545" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+                <marker date="1522881000737" expanded="true" signature="9645:10091" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="9729:10059" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="9786:10049" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="10121:10390" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="10156:10204" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="10242:10384" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="10284:10345" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="10498:11364" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="10797:11279" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="10872:11269" ph="{...}" />
+                <marker date="1522881000737" expanded="true" signature="10903:11031" ph="/* for each point of mask do: ... */" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,10 +91,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" />
       </list>
     </option>
   </component>
@@ -46,9 +109,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-52" />
-    <option name="y" value="107" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="197" />
+    <option name="y" value="481" />
     <option name="width" value="1440" />
     <option name="height" value="780" />
   </component>
@@ -68,12 +131,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="vrSandbox (loading...)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="vrSandbox (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -81,7 +145,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -100,24 +163,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <envs />
-      <option name="USE_MONO" value="0" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="PROJECT_PATH" value="" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
-    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -127,37 +179,54 @@
       <option name="presentableId" value="Default" />
       <updated>1518648912548</updated>
       <workItem from="1518648915430" duration="12000" />
+      <workItem from="1522878834051" duration="2757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12000" />
+    <option name="totallyTimeSpent" value="2769000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -166,9 +235,75 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/controller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="254" column="85" lean-forward="false" selection-start-line="254" selection-start-column="85" selection-end-line="254" selection-end-column="85" />
+          <folding>
+            <marker date="1522881000737" expanded="false" signature="6:124" ph="..." />
+            <marker date="1522881000737" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="251:11366" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1522881000737" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1522881000737" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1522881000737" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="7041:9551" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="7515:8181" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="7558:8171" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="7981:8064" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="8191:8363" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1522881000737" expanded="true" signature="8431:9545" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1522881000737" expanded="true" signature="9645:10091" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="9729:10059" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="9786:10049" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10121:10390" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10156:10204" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10242:10384" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10284:10345" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10498:11364" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10797:11279" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10872:11269" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10903:11031" ph="/* for each point of mask do: ... */" />
+          </folding>
         </state>
       </provider>
     </entry>
