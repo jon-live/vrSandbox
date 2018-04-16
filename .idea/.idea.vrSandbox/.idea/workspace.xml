@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe7d57ad-06c6-436b-9633-a60c8ec98397" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vrSandbox/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.vrSandbox/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset" afterPath="$PROJECT_DIR$/Assets/New Terrain 1.asset" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRClay.unity" afterPath="$PROJECT_DIR$/Assets/VRClay.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +27,7 @@
       <file leaf-file-name="DepthSourceView.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1914">
+            <state relative-caret-position="595">
               <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding>
                 <marker date="1522881000737" expanded="false" signature="6:124" ph="..." />
@@ -109,16 +108,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TerrainWorldSpaceShader.shader" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TerrainWorldSpaceShader.shader" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/TerrainWorldSpaceShader.shader">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
-              <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+              <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
               <folding>
-                <marker date="1515914414449" expanded="true" signature="43:3992" ph="{...}" />
                 <marker date="1515914414449" expanded="true" signature="57:1553" ph="{...}" />
                 <marker date="1515914414449" expanded="true" signature="1565:3967" ph="{...}" />
                 <marker date="1515914414449" expanded="true" signature="1613:3959" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Launcher.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Launcher.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <marker date="1523921666621" expanded="true" signature="51:4618" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="101:4616" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="116:811" ph="Public Variables" />
+                <marker date="1523921666621" expanded="true" signature="189:256" ph="/// The PUN loglevel.  ... " />
+                <marker date="1523921666621" expanded="true" signature="420:600" ph="/// The maximum number of players per room. When a room is full, it can't be joined by new players, and so new ro ... " />
+                <marker date="1523921666621" expanded="true" signature="822:1088" ph="Private Variables" />
+                <marker date="1523921666621" expanded="true" signature="858:1032" ph="/// This client's version number. Users are separated from each other by gameversion (which allows you to make br ... " />
+                <marker date="1523921666621" expanded="true" signature="1099:2533" ph="MonoBehaviour CallBacks" />
+                <marker date="1523921666621" expanded="true" signature="1141:1275" ph="/// MonoBehaviour method called on GameObject by Unity during early initialization phase. ... " />
+                <marker date="1523921666621" expanded="true" signature="1296:1882" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="1320:1366" ph="/* ##NotImportant ... */" />
+                <marker date="1523921666621" expanded="true" signature="1426:1537" ph="/* ##Critical ... */" />
+                <marker date="1523921666621" expanded="true" signature="1601:1766" ph="/* ##Critical ... */" />
+                <marker date="1523921666621" expanded="true" signature="1893:2021" ph="/// MonoBehaviour method called on GameObject by Unity during initialization phase. ... " />
+                <marker date="1523921666621" expanded="true" signature="2042:2085" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="2108:2514" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="2172:2504" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="2259:2490" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="2353:2472" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="2544:3497" ph="Public Methods" />
+                <marker date="1523921666621" expanded="true" signature="2577:2819" ph="/// Start the connection process.  ... " />
+                <marker date="1523921666621" expanded="true" signature="2849:3476" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="3020:3265" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="3282:3466" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="3507:3759" ph="Photon.PunBehaviour CallBacks" />
+                <marker date="1523921666621" expanded="true" signature="3597:3661" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="3719:3739" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="3834:4091" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="4136:4610" ph="{...}" />
+                <marker date="1523921666621" expanded="true" signature="4272:4600" ph="/* GameObject go = PhotonNetwork.Instantiate(this.playerPrefab.name, new Vector3(0f, 2f, 0f), Quaternion.identity ... */" />
               </folding>
             </state>
           </provider>
@@ -139,12 +178,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TerrainWorldSpaceShader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/controller.cs" />
         <option value="$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" />
       </list>
     </option>
   </component>
@@ -176,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -190,6 +230,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,11 +267,12 @@
       <workItem from="1518648915430" duration="12000" />
       <workItem from="1522878834051" duration="2757000" />
       <workItem from="1523902226524" duration="2641000" />
+      <workItem from="1523921626502" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5410000" />
+    <option name="totallyTimeSpent" value="5459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,6 +321,106 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding>
+            <marker date="1522881000737" expanded="false" signature="6:124" ph="..." />
+            <marker date="1522881000737" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="251:11366" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1522881000737" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1522881000737" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1522881000737" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="7041:9551" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="7515:8181" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="7558:8171" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="7981:8064" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="8191:8363" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1522881000737" expanded="true" signature="8431:9545" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1522881000737" expanded="true" signature="9645:10091" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="9729:10059" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="9786:10049" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10121:10390" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10156:10204" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10242:10384" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10284:10345" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10498:11364" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10797:11279" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10872:11269" ph="{...}" />
+            <marker date="1522881000737" expanded="true" signature="10903:11031" ph="/* for each point of mask do: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/ColorSourceManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <marker date="1507005112428" expanded="false" signature="6:66" ph="..." />
+            <marker date="1507005112428" expanded="true" signature="116:1926" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="390:427" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="449:1118" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="539:1112" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="1042:1102" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="1143:1580" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="1179:1574" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="1287:1564" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="1610:1924" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="1646:1725" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="1764:1918" ph="{...}" />
+            <marker date="1507005112428" expanded="true" signature="1806:1867" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TerrainWorldSpaceShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <marker date="1515914414449" expanded="true" signature="57:1553" ph="{...}" />
+            <marker date="1515914414449" expanded="true" signature="1565:3967" ph="{...}" />
+            <marker date="1515914414449" expanded="true" signature="1613:3959" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/controller.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -363,7 +505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1914">
+        <state relative-caret-position="595">
           <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding>
             <marker date="1522881000737" expanded="false" signature="6:124" ph="..." />
@@ -444,12 +586,50 @@
     <entry file="file://$PROJECT_DIR$/Assets/TerrainWorldSpaceShader.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
-          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
-            <marker date="1515914414449" expanded="true" signature="43:3992" ph="{...}" />
             <marker date="1515914414449" expanded="true" signature="57:1553" ph="{...}" />
             <marker date="1515914414449" expanded="true" signature="1565:3967" ph="{...}" />
             <marker date="1515914414449" expanded="true" signature="1613:3959" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Launcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <marker date="1523921666621" expanded="true" signature="51:4618" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="101:4616" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="116:811" ph="Public Variables" />
+            <marker date="1523921666621" expanded="true" signature="189:256" ph="/// The PUN loglevel.  ... " />
+            <marker date="1523921666621" expanded="true" signature="420:600" ph="/// The maximum number of players per room. When a room is full, it can't be joined by new players, and so new ro ... " />
+            <marker date="1523921666621" expanded="true" signature="822:1088" ph="Private Variables" />
+            <marker date="1523921666621" expanded="true" signature="858:1032" ph="/// This client's version number. Users are separated from each other by gameversion (which allows you to make br ... " />
+            <marker date="1523921666621" expanded="true" signature="1099:2533" ph="MonoBehaviour CallBacks" />
+            <marker date="1523921666621" expanded="true" signature="1141:1275" ph="/// MonoBehaviour method called on GameObject by Unity during early initialization phase. ... " />
+            <marker date="1523921666621" expanded="true" signature="1296:1882" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="1320:1366" ph="/* ##NotImportant ... */" />
+            <marker date="1523921666621" expanded="true" signature="1426:1537" ph="/* ##Critical ... */" />
+            <marker date="1523921666621" expanded="true" signature="1601:1766" ph="/* ##Critical ... */" />
+            <marker date="1523921666621" expanded="true" signature="1893:2021" ph="/// MonoBehaviour method called on GameObject by Unity during initialization phase. ... " />
+            <marker date="1523921666621" expanded="true" signature="2042:2085" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="2108:2514" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="2172:2504" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="2259:2490" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="2353:2472" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="2544:3497" ph="Public Methods" />
+            <marker date="1523921666621" expanded="true" signature="2577:2819" ph="/// Start the connection process.  ... " />
+            <marker date="1523921666621" expanded="true" signature="2849:3476" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="3020:3265" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="3282:3466" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="3507:3759" ph="Photon.PunBehaviour CallBacks" />
+            <marker date="1523921666621" expanded="true" signature="3597:3661" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="3719:3739" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="3834:4091" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="4136:4610" ph="{...}" />
+            <marker date="1523921666621" expanded="true" signature="4272:4600" ph="/* GameObject go = PhotonNetwork.Instantiate(this.playerPrefab.name, new Vector3(0f, 2f, 0f), Quaternion.identity ... */" />
           </folding>
         </state>
       </provider>
