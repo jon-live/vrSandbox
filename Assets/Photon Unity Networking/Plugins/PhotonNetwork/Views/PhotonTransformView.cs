@@ -83,7 +83,11 @@ public class PhotonTransformView : MonoBehaviour, IPunObservable
         }
 
        	transform.localPosition = this.m_PositionControl.UpdatePosition(transform.localPosition);
-    }
+	    Vector3 mySize = GameObject.Find("Terrain").GetComponent<Terrain>().terrainData.size;
+	    Debug.Log(mySize);
+
+
+    }	
 
     void UpdateRotation()
     {
