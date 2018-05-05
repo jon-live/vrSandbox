@@ -20,8 +20,8 @@ using UnityEngine;
 /// the PhotonTransformView is added to the list of observed components
 /// </summary>
 [RequireComponent(typeof(PhotonView))]
-[AddComponentMenu("Photon Networking/Photon Transform View")]
-public class PhotonTransformView : MonoBehaviour, IPunObservable
+[AddComponentMenu("Photon Networking/Photon Transform View Drawing")]
+public class PhotonTransformViewDrawing : MonoBehaviour, IPunObservable
 {
     //Since this component is very complex, we seperated it into multiple objects.
     //The PositionModel, RotationModel and ScaleMode store the data you are able to
@@ -108,7 +108,6 @@ public class PhotonTransformView : MonoBehaviour, IPunObservable
         }
 
         transform.localRotation = this.m_RotationControl.GetRotation(transform.localRotation);
-	    transform.localEulerAngles = new Vector3(-90, 0, 0);
     }
 
     void UpdateScale()
@@ -119,12 +118,6 @@ public class PhotonTransformView : MonoBehaviour, IPunObservable
         }
 
         transform.localScale = this.m_ScaleControl.GetScale(transform.localScale);
-	    Vector3 scale = transform.localScale;
-	    scale.x *= 35;
-	    scale.y *= 35;
-	    scale.z *= 35;
-	    transform.localScale = scale;
-	    Debug.Log(transform.localScale);
     }
 
     /// <summary>

@@ -250,9 +250,12 @@ void Start()
         for (h = 80;  h< 360; h+=1) {
             for (w = 180; w < 410; w+=1) {
                 if (heights[h + 60, w - 90] != 0 & Math.Abs(heightMap[h + 60, w - 90] - heights[h + 60, w - 90]) / heights[h + 60, w - 90] <= 0.2)
-                    heightMap[h + 60, w - 90] = heights[h + 60, w - 90];
+//                    heightMap[h + 60, w - 90] = heights[h + 60, w - 90];
+                    heightMap[h + 60, w - 90] = 0;
+
                 else
-                    heightMap[h + 60, w - 90] = (1f - ((depthData[w + (h * 512)] / 1000f)) + heights[h + 60, w - 90]) * 0.65f;
+//                    heightMap[h + 60, w - 90] = (1f - ((depthData[w + (h * 512)] / 1000f)) + heights[h + 60, w - 90]) * 0.65f;
+                heightMap[h + 60, w - 90] = 0;
                 if (heightMap[h + 60, w -90] > 0.86f)
               {
                     heightMap[h + 60, w -90] = 0;

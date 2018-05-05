@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe7d57ad-06c6-436b-9633-a60c8ec98397" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vrSandbox/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.vrSandbox/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vrSandbox/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.vrSandbox/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" afterPath="$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset" afterPath="$PROJECT_DIR$/Assets/New Terrain 1.asset" />
       <change beforePath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs" afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" afterPath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Tree.prefab" afterPath="$PROJECT_DIR$/Assets/Resources/Tree.prefab" />
       <change beforePath="$PROJECT_DIR$/Assets/VRClay.unity" afterPath="$PROJECT_DIR$/Assets/VRClay.unity" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,97 +133,138 @@
       <file leaf-file-name="PhotonTransformView.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="86" column="24" lean-forward="false" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+            <state relative-caret-position="595">
+              <caret line="99" column="43" lean-forward="false" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
               <folding>
-                <marker date="1524596196679" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
-                <marker date="1524596196679" expanded="true" signature="477:892" ph="/// This class helps you to synchronize position, rotation and scale ... " />
-                <marker date="1524596196679" expanded="true" signature="1058:7872" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="1065:1378" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
-                <marker date="1524596196679" expanded="true" signature="1969:2106" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
-                <marker date="1524596196679" expanded="true" signature="2151:2496" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="2514:2542" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="2561:2815" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="2678:2718" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="2842:3213" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="2951:2991" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="3241:3492" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="3350:3390" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="3516:3752" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="3622:3662" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="3758:4319" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
-                <marker date="1524596196679" expanded="true" signature="4389:4473" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="4557:5666" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="4931:5000" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="5039:5660" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="5196:5649" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="5276:5369" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="5419:5512" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="5559:5643" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="5672:5979" ph="/* void OnDrawGizmos() ... */" />
-                <marker date="1524596196679" expanded="true" signature="6020:6568" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="6246:6319" ph="{...}" />
-                <marker date="1524596196679" expanded="true" signature="6574:7870" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
+                <marker date="1524862425339" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
+                <marker date="1524862425339" expanded="false" signature="463:489" ph="..." />
+                <marker date="1524862425339" expanded="true" signature="491:906" ph="/// This class helps you to synchronize position, rotation and scale ... " />
+                <marker date="1524862425339" expanded="true" signature="1072:8632" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="1079:1392" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
+                <marker date="1524862425339" expanded="true" signature="1983:2120" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
+                <marker date="1524862425339" expanded="true" signature="2165:2510" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="2528:2556" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="2575:2829" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="2692:2732" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="2856:3739" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="2965:3005" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="3767:4076" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="3876:3916" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="4100:4512" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="4206:4246" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="4518:5079" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
+                <marker date="1524862425339" expanded="true" signature="5149:5233" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="5317:6426" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="5691:5760" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="5799:6420" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="5956:6409" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="6036:6129" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="6179:6272" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="6319:6403" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="6432:6739" ph="/* void OnDrawGizmos() ... */" />
+                <marker date="1524862425339" expanded="true" signature="6780:7328" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="7006:7079" ph="{...}" />
+                <marker date="1524862425339" expanded="true" signature="7334:8630" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DepthSourceView.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PhotonTransformViewDrawing.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewDrawing.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+              <folding>
+                <marker date="1525324238885" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
+                <marker date="1525324238885" expanded="false" signature="463:489" ph="..." />
+                <marker date="1525324238885" expanded="true" signature="491:906" ph="/// This class helps you to synchronize position, rotation and scale ... " />
+                <marker date="1525324238885" expanded="true" signature="1087:8413" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="1094:1407" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
+                <marker date="1525324238885" expanded="true" signature="1998:2135" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
+                <marker date="1525324238885" expanded="true" signature="2180:2525" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="2543:2571" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="2590:2844" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="2707:2747" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="2871:3754" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="2980:3020" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="3782:4033" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="3891:3931" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="4057:4293" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="4163:4203" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="4299:4860" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
+                <marker date="1525324238885" expanded="true" signature="4930:5014" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="5098:6207" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="5472:5541" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="5580:6201" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="5737:6190" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="5817:5910" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="5960:6053" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="6100:6184" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="6213:6520" ph="/* void OnDrawGizmos() ... */" />
+                <marker date="1525324238885" expanded="true" signature="6561:7109" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="6787:6860" ph="{...}" />
+                <marker date="1525324238885" expanded="true" signature="7115:8411" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepthSourceView.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="262" column="0" lean-forward="true" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="257" column="46" lean-forward="false" selection-start-line="257" selection-start-column="46" selection-end-line="257" selection-end-column="46" />
               <folding>
-                <marker date="1522881000737" expanded="true" signature="6:124" ph="..." />
-                <marker date="1522881000737" expanded="true" signature="151:205" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="251:11366" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="1077:1709" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="1157:1703" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
-                <marker date="1522881000737" expanded="true" signature="1633:1693" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="1753:2273" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
-                <marker date="1522881000737" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
-                <marker date="1522881000737" expanded="true" signature="2317:3765" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="2630:3624" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="2684:3614" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="3000:3600" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="3787:3996" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="4016:6748" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="4051:4091" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="4142:4419" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="4212:4304" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="4321:4409" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="4763:5606" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="4817:4869" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="5004:5056" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="5113:5165" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="5300:5352" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="5619:6741" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="5673:5725" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="5860:5912" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="6135:6332" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="6375:6572" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="6792:6957" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="6829:6928" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="7041:9551" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="7515:8181" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="7558:8171" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="7981:8064" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="8191:8363" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
-                <marker date="1522881000737" expanded="true" signature="8431:9545" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
-                <marker date="1522881000737" expanded="true" signature="9645:10091" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="9729:10059" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="9786:10049" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="10121:10390" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="10156:10204" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="10242:10384" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="10284:10345" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="10498:11364" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="10797:11279" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="10872:11269" ph="{...}" />
-                <marker date="1522881000737" expanded="true" signature="10903:11031" ph="/* for each point of mask do: ... */" />
+                <marker date="1525400746300" expanded="false" signature="6:124" ph="..." />
+                <marker date="1525400746300" expanded="true" signature="151:205" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="251:11469" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="1077:1709" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="1157:1703" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+                <marker date="1525400746300" expanded="true" signature="1633:1693" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="1753:2273" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+                <marker date="1525400746300" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+                <marker date="1525400746300" expanded="true" signature="2317:3765" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="2630:3624" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="2684:3614" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="3000:3600" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="3787:3996" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="4016:6748" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="4051:4091" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="4142:4419" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="4212:4304" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="4321:4409" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="4763:5606" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="4817:4869" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="5004:5056" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="5113:5165" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="5300:5352" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="5619:6741" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="5673:5725" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="5860:5912" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="6135:6332" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="6375:6572" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="6792:6957" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="6829:6928" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="7041:9654" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="7515:8284" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="7558:8274" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="8084:8167" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="8294:8466" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+                <marker date="1525400746300" expanded="true" signature="8534:9648" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+                <marker date="1525400746300" expanded="true" signature="9748:10194" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="9832:10162" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="9889:10152" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="10224:10493" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="10259:10307" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="10345:10487" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="10387:10448" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="10601:11467" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="10900:11382" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="10975:11372" ph="{...}" />
+                <marker date="1525400746300" expanded="true" signature="11006:11134" ph="/* for each point of mask do: ... */" />
               </folding>
             </state>
           </provider>
@@ -243,15 +288,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TerrainWorldSpaceShader.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewDrawing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/controller.cs" />
-        <option value="$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewDrawing.cs" />
+        <option value="$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs" />
       </list>
     </option>
   </component>
@@ -261,7 +308,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="144" />
     <option name="y" value="65" />
     <option name="width" value="1440" />
@@ -336,12 +383,15 @@
       <workItem from="1523921626502" duration="49000" />
       <workItem from="1524081532051" duration="623000" />
       <workItem from="1524549139611" duration="4083000" />
-      <workItem from="1524595607877" duration="979000" />
+      <workItem from="1524595607877" duration="5810000" />
+      <workItem from="1524631176470" duration="3748000" />
+      <workItem from="1524862090493" duration="934000" />
+      <workItem from="1525322388210" duration="4705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11144000" />
+    <option name="totallyTimeSpent" value="25362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,23 +403,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -498,39 +548,652 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="242" column="16" lean-forward="false" selection-start-line="242" selection-start-column="8" selection-end-line="242" selection-end-column="16" />
+          <folding>
+            <marker date="1525400746300" expanded="false" signature="6:124" ph="..." />
+            <marker date="1525400746300" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="251:11469" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1525400746300" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1525400746300" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1525400746300" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7041:9654" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7515:8284" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7558:8274" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8084:8167" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8294:8466" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1525400746300" expanded="true" signature="8534:9648" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1525400746300" expanded="true" signature="9748:10194" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9832:10162" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9889:10152" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10224:10493" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10259:10307" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10345:10487" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10387:10448" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10601:11467" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10900:11382" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10975:11372" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="11006:11134" ph="/* for each point of mask do: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="97" column="69" lean-forward="false" selection-start-line="97" selection-start-column="69" selection-end-line="97" selection-end-column="69" />
+          <folding>
+            <marker date="1524862425339" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
+            <marker date="1524862425339" expanded="false" signature="463:489" ph="..." />
+            <marker date="1524862425339" expanded="true" signature="491:906" ph="/// This class helps you to synchronize position, rotation and scale ... " />
+            <marker date="1524862425339" expanded="true" signature="1072:8632" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="1079:1392" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
+            <marker date="1524862425339" expanded="true" signature="1983:2120" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
+            <marker date="1524862425339" expanded="true" signature="2165:2510" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2528:2556" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2575:2829" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2692:2732" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2856:3739" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2965:3005" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3767:4076" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3876:3916" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4100:4512" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4206:4246" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4518:5079" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
+            <marker date="1524862425339" expanded="true" signature="5149:5233" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5317:6426" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5691:5760" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5799:6420" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5956:6409" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6036:6129" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6179:6272" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6319:6403" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6432:6739" ph="/* void OnDrawGizmos() ... */" />
+            <marker date="1524862425339" expanded="true" signature="6780:7328" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7006:7079" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7334:8630" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513774339000" expanded="true" signature="0:387" ph="/* ... */" />
+            <marker date="1513774339000" expanded="false" signature="395:548" ph="..." />
+            <marker date="1513774339000" expanded="true" signature="833:1047" ph="/// Options to define how Ownership Transfer is handled per PhotonView. ... " />
+            <marker date="1513774339000" expanded="true" signature="1075:1684" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="1082:1239" ph="/// Ownership is fixed. Instantiated objects stick with their creator, scene objects always belong to the Master  ... " />
+            <marker date="1513774339000" expanded="true" signature="1255:1364" ph="/// Ownership can be taken away from the current owner who can't object. ... " />
+            <marker date="1513774339000" expanded="true" signature="1383:1670" ph="/// Ownership can be requested with PhotonView.RequestOwnership but the current owner has to agree to give up own ... " />
+            <marker date="1513774339000" expanded="true" signature="1687:1821" ph="/// PUN's NetworkView replacement class for networking. Use it like a NetworkView. ... " />
+            <marker date="1513774339000" expanded="true" signature="1923:27742" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="2008:2097" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="2223:2516" ph="/// Flag to check if ownership of this photonView was set during the lifecycle. Used for checking when joining la ... " />
+            <marker date="1513774339000" expanded="true" signature="2560:2887" ph="/* NOTE: this is now an integer because unity won't serialize short (needed for instantiation). we SEND only a sh ... */" />
+            <marker date="1513774339000" expanded="true" signature="2909:3229" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="2927:3180" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3018:3131" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3387:3553" ph="/// This is the instantiationData that was passed when calling PhotonNetwork.Instantiate* (if that was used to sp ... " />
+            <marker date="1513774339000" expanded="true" signature="3591:4068" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3609:4009" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3651:3951" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="4121:4194" ph="/// For internal use only, don't use ... " />
+            <marker date="1513774339000" expanded="true" signature="4264:4337" ph="/// For internal use only, don't use ... " />
+            <marker date="1513774339000" expanded="true" signature="4652:5021" ph="///Defines if ownership of this PhotonView is fixed, can be requested or simply taken. ... " />
+            <marker date="1513774339000" expanded="true" signature="5579:5771" ph="/// The ID of the PhotonView. Identifies it in a networked game (per room). ... " />
+            <marker date="1513774339000" expanded="true" signature="5793:6772" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="5852:6766" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="6085:6412" ph="/* TODO: decide if a viewID can be changed once it wasn't 0. most likely that is not a good idea ... */" />
+            <marker date="1513774339000" expanded="true" signature="6550:6649" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="6906:7348" ph="///True if the PhotonView was loaded with the scene (game object) or instantiated with InstantiateSceneObject. ... " />
+            <marker date="1513774339000" expanded="true" signature="7376:7437" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="7443:8062" ph="/// The owner of a PhotonView is the player who created the GameObject with that view. Objects in the scene don't ... " />
+            <marker date="1513774339000" expanded="true" signature="8092:8188" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8110:8182" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8217:8266" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8297:8417" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8448:8530" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8536:8907" ph="/// True if the PhotonView is &quot;mine&quot; and can be controlled by this client. ... " />
+            <marker date="1513774339000" expanded="true" signature="8930:9093" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8948:9087" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="9096:9403" ph="/// The current master ID so that we can compare when we receive OnMasterClientSwitched() callback ... " />
+            <marker date="1513774339000" expanded="true" signature="9882:10302" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="9918:10265" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="10308:10853" ph="/// Depending on the PhotonView's ownershipTransfer setting, any client can request to become owner of the Photon ... " />
+            <marker date="1513774339000" expanded="true" signature="10888:10982" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="10988:11256" ph="/// Transfers the ownership of this PhotonView (and GameObject) to another player. ... " />
+            <marker date="1513774339000" expanded="true" signature="11313:11370" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="11376:11644" ph="/// Transfers the ownership of this PhotonView (and GameObject) to another player. ... " />
+            <marker date="1513774339000" expanded="true" signature="11694:11909" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="11912:12090" ph="///Check ownerId assignment for sceneObjects to keep being owned by the MasterClient. ... " />
+            <marker date="1513774339000" expanded="true" signature="12156:12387" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12292:12338" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12429:13118" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12479:13112" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12899:13102" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13194:13482" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13282:13476" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13360:13466" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13560:13850" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13648:13844" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13726:13834" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13966:17019" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14003:14043" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14140:14226" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14267:15427" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14384:15417" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="15468:16165" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="15586:16155" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="16208:16905" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="16330:16895" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="16918:17013" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17133:19883" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17170:17210" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17251:17337" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17378:18401" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17495:18391" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="18442:19075" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="18560:19065" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="19118:19755" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="19240:19745" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="19768:19877" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20006:21062" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20109:20189" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20225:21056" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20388:20914" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20604:20829" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20947:21046" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="21069:21622" ph="/// Can be used to refesh the list of MonoBehaviours on this GameObject while PhotonNetwork.UseRpcMonoBehaviourCa ... " />
+            <marker date="1513774339000" expanded="true" signature="21669:21751" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="21758:22972" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="23061:23145" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="23151:24401" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="24510:24596" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="24602:25651" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="25745:25835" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="25841:26926" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="27040:27132" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27187:27252" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27306:27369" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27416:27495" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27534:27740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="242" column="16" lean-forward="false" selection-start-line="242" selection-start-column="8" selection-end-line="242" selection-end-column="16" />
+          <folding>
+            <marker date="1525400746300" expanded="false" signature="6:124" ph="..." />
+            <marker date="1525400746300" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="251:11469" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1525400746300" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1525400746300" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1525400746300" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7041:9654" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7515:8284" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7558:8274" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8084:8167" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8294:8466" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1525400746300" expanded="true" signature="8534:9648" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1525400746300" expanded="true" signature="9748:10194" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9832:10162" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9889:10152" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10224:10493" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10259:10307" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10345:10487" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10387:10448" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10601:11467" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10900:11382" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10975:11372" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="11006:11134" ph="/* for each point of mask do: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="97" column="67" lean-forward="false" selection-start-line="97" selection-start-column="67" selection-end-line="97" selection-end-column="67" />
+          <folding>
+            <marker date="1524862425339" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
+            <marker date="1524862425339" expanded="false" signature="463:489" ph="..." />
+            <marker date="1524862425339" expanded="true" signature="491:906" ph="/// This class helps you to synchronize position, rotation and scale ... " />
+            <marker date="1524862425339" expanded="true" signature="1072:8632" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="1079:1392" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
+            <marker date="1524862425339" expanded="true" signature="1983:2120" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
+            <marker date="1524862425339" expanded="true" signature="2165:2510" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2528:2556" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2575:2829" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2692:2732" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2856:3739" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2965:3005" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3767:4076" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3876:3916" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4100:4512" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4206:4246" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4518:5079" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
+            <marker date="1524862425339" expanded="true" signature="5149:5233" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5317:6426" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5691:5760" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5799:6420" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5956:6409" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6036:6129" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6179:6272" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6319:6403" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6432:6739" ph="/* void OnDrawGizmos() ... */" />
+            <marker date="1524862425339" expanded="true" signature="6780:7328" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7006:7079" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7334:8630" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513774339000" expanded="true" signature="0:387" ph="/* ... */" />
+            <marker date="1513774339000" expanded="false" signature="395:548" ph="..." />
+            <marker date="1513774339000" expanded="true" signature="833:1047" ph="/// Options to define how Ownership Transfer is handled per PhotonView. ... " />
+            <marker date="1513774339000" expanded="true" signature="1075:1684" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="1082:1239" ph="/// Ownership is fixed. Instantiated objects stick with their creator, scene objects always belong to the Master  ... " />
+            <marker date="1513774339000" expanded="true" signature="1255:1364" ph="/// Ownership can be taken away from the current owner who can't object. ... " />
+            <marker date="1513774339000" expanded="true" signature="1383:1670" ph="/// Ownership can be requested with PhotonView.RequestOwnership but the current owner has to agree to give up own ... " />
+            <marker date="1513774339000" expanded="true" signature="1687:1821" ph="/// PUN's NetworkView replacement class for networking. Use it like a NetworkView. ... " />
+            <marker date="1513774339000" expanded="true" signature="1923:27742" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="2008:2097" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="2223:2516" ph="/// Flag to check if ownership of this photonView was set during the lifecycle. Used for checking when joining la ... " />
+            <marker date="1513774339000" expanded="true" signature="2560:2887" ph="/* NOTE: this is now an integer because unity won't serialize short (needed for instantiation). we SEND only a sh ... */" />
+            <marker date="1513774339000" expanded="true" signature="2909:3229" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="2927:3180" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3018:3131" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3387:3553" ph="/// This is the instantiationData that was passed when calling PhotonNetwork.Instantiate* (if that was used to sp ... " />
+            <marker date="1513774339000" expanded="true" signature="3591:4068" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3609:4009" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3651:3951" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="4121:4194" ph="/// For internal use only, don't use ... " />
+            <marker date="1513774339000" expanded="true" signature="4264:4337" ph="/// For internal use only, don't use ... " />
+            <marker date="1513774339000" expanded="true" signature="4652:5021" ph="///Defines if ownership of this PhotonView is fixed, can be requested or simply taken. ... " />
+            <marker date="1513774339000" expanded="true" signature="5579:5771" ph="/// The ID of the PhotonView. Identifies it in a networked game (per room). ... " />
+            <marker date="1513774339000" expanded="true" signature="5793:6772" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="5852:6766" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="6085:6412" ph="/* TODO: decide if a viewID can be changed once it wasn't 0. most likely that is not a good idea ... */" />
+            <marker date="1513774339000" expanded="true" signature="6550:6649" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="6906:7348" ph="///True if the PhotonView was loaded with the scene (game object) or instantiated with InstantiateSceneObject. ... " />
+            <marker date="1513774339000" expanded="true" signature="7376:7437" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="7443:8062" ph="/// The owner of a PhotonView is the player who created the GameObject with that view. Objects in the scene don't ... " />
+            <marker date="1513774339000" expanded="true" signature="8092:8188" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8110:8182" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8217:8266" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8297:8417" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8448:8530" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8536:8907" ph="/// True if the PhotonView is &quot;mine&quot; and can be controlled by this client. ... " />
+            <marker date="1513774339000" expanded="true" signature="8930:9093" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8948:9087" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="9096:9403" ph="/// The current master ID so that we can compare when we receive OnMasterClientSwitched() callback ... " />
+            <marker date="1513774339000" expanded="true" signature="9882:10302" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="9918:10265" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="10308:10853" ph="/// Depending on the PhotonView's ownershipTransfer setting, any client can request to become owner of the Photon ... " />
+            <marker date="1513774339000" expanded="true" signature="10888:10982" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="10988:11256" ph="/// Transfers the ownership of this PhotonView (and GameObject) to another player. ... " />
+            <marker date="1513774339000" expanded="true" signature="11313:11370" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="11376:11644" ph="/// Transfers the ownership of this PhotonView (and GameObject) to another player. ... " />
+            <marker date="1513774339000" expanded="true" signature="11694:11909" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="11912:12090" ph="///Check ownerId assignment for sceneObjects to keep being owned by the MasterClient. ... " />
+            <marker date="1513774339000" expanded="true" signature="12156:12387" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12292:12338" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12429:13118" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12479:13112" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12899:13102" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13194:13482" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13282:13476" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13360:13466" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13560:13850" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13648:13844" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13726:13834" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13966:17019" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14003:14043" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14140:14226" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14267:15427" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14384:15417" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="15468:16165" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="15586:16155" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="16208:16905" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="16330:16895" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="16918:17013" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17133:19883" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17170:17210" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17251:17337" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17378:18401" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17495:18391" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="18442:19075" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="18560:19065" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="19118:19755" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="19240:19745" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="19768:19877" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20006:21062" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20109:20189" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20225:21056" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20388:20914" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20604:20829" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20947:21046" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="21069:21622" ph="/// Can be used to refesh the list of MonoBehaviours on this GameObject while PhotonNetwork.UseRpcMonoBehaviourCa ... " />
+            <marker date="1513774339000" expanded="true" signature="21669:21751" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="21758:22972" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="23061:23145" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="23151:24401" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="24510:24596" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="24602:25651" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="25745:25835" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="25841:26926" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="27040:27132" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27187:27252" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27306:27369" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27416:27495" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27534:27740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="242" column="16" lean-forward="false" selection-start-line="242" selection-start-column="8" selection-end-line="242" selection-end-column="16" />
+          <folding>
+            <marker date="1525400746300" expanded="false" signature="6:124" ph="..." />
+            <marker date="1525400746300" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="251:11469" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1525400746300" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1525400746300" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1525400746300" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7041:9654" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7515:8284" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7558:8274" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8084:8167" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8294:8466" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1525400746300" expanded="true" signature="8534:9648" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1525400746300" expanded="true" signature="9748:10194" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9832:10162" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9889:10152" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10224:10493" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10259:10307" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10345:10487" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10387:10448" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10601:11467" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10900:11382" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10975:11372" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="11006:11134" ph="/* for each point of mask do: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" column="19" lean-forward="true" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+          <folding>
+            <marker date="1524862425339" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
+            <marker date="1524862425339" expanded="false" signature="463:489" ph="..." />
+            <marker date="1524862425339" expanded="true" signature="491:906" ph="/// This class helps you to synchronize position, rotation and scale ... " />
+            <marker date="1524862425339" expanded="true" signature="1072:8632" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="1079:1392" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
+            <marker date="1524862425339" expanded="true" signature="1983:2120" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
+            <marker date="1524862425339" expanded="true" signature="2165:2510" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2528:2556" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2575:2829" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2692:2732" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2856:3739" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2965:3005" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3767:4076" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3876:3916" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4100:4512" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4206:4246" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4518:5079" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
+            <marker date="1524862425339" expanded="true" signature="5149:5233" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5317:6426" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5691:5760" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5799:6420" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5956:6409" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6036:6129" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6179:6272" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6319:6403" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6432:6739" ph="/* void OnDrawGizmos() ... */" />
+            <marker date="1524862425339" expanded="true" signature="6780:7328" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7006:7079" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7334:8630" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513774339000" expanded="true" signature="0:387" ph="/* ... */" />
+            <marker date="1513774339000" expanded="false" signature="395:548" ph="..." />
+            <marker date="1513774339000" expanded="true" signature="833:1047" ph="/// Options to define how Ownership Transfer is handled per PhotonView. ... " />
+            <marker date="1513774339000" expanded="true" signature="1075:1684" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="1082:1239" ph="/// Ownership is fixed. Instantiated objects stick with their creator, scene objects always belong to the Master  ... " />
+            <marker date="1513774339000" expanded="true" signature="1255:1364" ph="/// Ownership can be taken away from the current owner who can't object. ... " />
+            <marker date="1513774339000" expanded="true" signature="1383:1670" ph="/// Ownership can be requested with PhotonView.RequestOwnership but the current owner has to agree to give up own ... " />
+            <marker date="1513774339000" expanded="true" signature="1687:1821" ph="/// PUN's NetworkView replacement class for networking. Use it like a NetworkView. ... " />
+            <marker date="1513774339000" expanded="true" signature="1923:27742" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="2008:2097" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="2223:2516" ph="/// Flag to check if ownership of this photonView was set during the lifecycle. Used for checking when joining la ... " />
+            <marker date="1513774339000" expanded="true" signature="2560:2887" ph="/* NOTE: this is now an integer because unity won't serialize short (needed for instantiation). we SEND only a sh ... */" />
+            <marker date="1513774339000" expanded="true" signature="2909:3229" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="2927:3180" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3018:3131" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3387:3553" ph="/// This is the instantiationData that was passed when calling PhotonNetwork.Instantiate* (if that was used to sp ... " />
+            <marker date="1513774339000" expanded="true" signature="3591:4068" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3609:4009" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="3651:3951" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="4121:4194" ph="/// For internal use only, don't use ... " />
+            <marker date="1513774339000" expanded="true" signature="4264:4337" ph="/// For internal use only, don't use ... " />
+            <marker date="1513774339000" expanded="true" signature="4652:5021" ph="///Defines if ownership of this PhotonView is fixed, can be requested or simply taken. ... " />
+            <marker date="1513774339000" expanded="true" signature="5579:5771" ph="/// The ID of the PhotonView. Identifies it in a networked game (per room). ... " />
+            <marker date="1513774339000" expanded="true" signature="5793:6772" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="5852:6766" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="6085:6412" ph="/* TODO: decide if a viewID can be changed once it wasn't 0. most likely that is not a good idea ... */" />
+            <marker date="1513774339000" expanded="true" signature="6550:6649" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="6906:7348" ph="///True if the PhotonView was loaded with the scene (game object) or instantiated with InstantiateSceneObject. ... " />
+            <marker date="1513774339000" expanded="true" signature="7376:7437" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="7443:8062" ph="/// The owner of a PhotonView is the player who created the GameObject with that view. Objects in the scene don't ... " />
+            <marker date="1513774339000" expanded="true" signature="8092:8188" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8110:8182" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8217:8266" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8297:8417" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8448:8530" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8536:8907" ph="/// True if the PhotonView is &quot;mine&quot; and can be controlled by this client. ... " />
+            <marker date="1513774339000" expanded="true" signature="8930:9093" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="8948:9087" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="9096:9403" ph="/// The current master ID so that we can compare when we receive OnMasterClientSwitched() callback ... " />
+            <marker date="1513774339000" expanded="true" signature="9882:10302" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="9918:10265" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="10308:10853" ph="/// Depending on the PhotonView's ownershipTransfer setting, any client can request to become owner of the Photon ... " />
+            <marker date="1513774339000" expanded="true" signature="10888:10982" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="10988:11256" ph="/// Transfers the ownership of this PhotonView (and GameObject) to another player. ... " />
+            <marker date="1513774339000" expanded="true" signature="11313:11370" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="11376:11644" ph="/// Transfers the ownership of this PhotonView (and GameObject) to another player. ... " />
+            <marker date="1513774339000" expanded="true" signature="11694:11909" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="11912:12090" ph="///Check ownerId assignment for sceneObjects to keep being owned by the MasterClient. ... " />
+            <marker date="1513774339000" expanded="true" signature="12156:12387" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12292:12338" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12429:13118" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12479:13112" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="12899:13102" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13194:13482" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13282:13476" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13360:13466" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13560:13850" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13648:13844" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13726:13834" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="13966:17019" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14003:14043" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14140:14226" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14267:15427" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="14384:15417" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="15468:16165" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="15586:16155" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="16208:16905" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="16330:16895" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="16918:17013" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17133:19883" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17170:17210" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17251:17337" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17378:18401" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="17495:18391" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="18442:19075" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="18560:19065" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="19118:19755" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="19240:19745" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="19768:19877" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20006:21062" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20109:20189" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20225:21056" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20388:20914" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20604:20829" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="20947:21046" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="21069:21622" ph="/// Can be used to refesh the list of MonoBehaviours on this GameObject while PhotonNetwork.UseRpcMonoBehaviourCa ... " />
+            <marker date="1513774339000" expanded="true" signature="21669:21751" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="21758:22972" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="23061:23145" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="23151:24401" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="24510:24596" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="24602:25651" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="25745:25835" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="25841:26926" ph="/// Call a RPC method of this GameObject on remote clients of this room (or on all, inclunding this client). ... " />
+            <marker date="1513774339000" expanded="true" signature="27040:27132" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27187:27252" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27306:27369" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27416:27495" ph="{...}" />
+            <marker date="1513774339000" expanded="true" signature="27534:27740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="93" column="5" lean-forward="false" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
           <folding>
-            <marker date="1524596196679" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
-            <marker date="1524596196679" expanded="true" signature="477:892" ph="/// This class helps you to synchronize position, rotation and scale ... " />
-            <marker date="1524596196679" expanded="true" signature="1058:7872" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="1065:1378" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
-            <marker date="1524596196679" expanded="true" signature="1969:2106" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
-            <marker date="1524596196679" expanded="true" signature="2151:2496" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2514:2542" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2561:2815" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2678:2718" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2842:3213" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2951:2991" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3241:3492" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3350:3390" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3516:3752" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3622:3662" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3758:4319" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
-            <marker date="1524596196679" expanded="true" signature="4389:4473" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="4557:5666" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="4931:5000" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5039:5660" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5196:5649" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5276:5369" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5419:5512" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5559:5643" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5672:5979" ph="/* void OnDrawGizmos() ... */" />
-            <marker date="1524596196679" expanded="true" signature="6020:6568" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="6246:6319" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="6574:7870" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
+            <marker date="1524862425339" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
+            <marker date="1524862425339" expanded="false" signature="463:489" ph="..." />
+            <marker date="1524862425339" expanded="true" signature="491:906" ph="/// This class helps you to synchronize position, rotation and scale ... " />
+            <marker date="1524862425339" expanded="true" signature="1072:8632" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="1079:1392" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
+            <marker date="1524862425339" expanded="true" signature="1983:2120" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
+            <marker date="1524862425339" expanded="true" signature="2165:2510" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2528:2556" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2575:2829" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2692:2732" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2856:3739" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2965:3005" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3767:4076" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3876:3916" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4100:4512" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4206:4246" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4518:5079" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
+            <marker date="1524862425339" expanded="true" signature="5149:5233" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5317:6426" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5691:5760" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5799:6420" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5956:6409" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6036:6129" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6179:6272" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6319:6403" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6432:6739" ph="/* void OnDrawGizmos() ... */" />
+            <marker date="1524862425339" expanded="true" signature="6780:7328" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7006:7079" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7334:8630" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
           </folding>
         </state>
       </provider>
@@ -568,55 +1231,55 @@
         <state relative-caret-position="425">
           <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           <folding>
-            <marker date="1522881000737" expanded="true" signature="6:124" ph="..." />
-            <marker date="1522881000737" expanded="true" signature="151:205" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="251:11366" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1077:1709" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1157:1703" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
-            <marker date="1522881000737" expanded="true" signature="1633:1693" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1753:2273" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
-            <marker date="1522881000737" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
-            <marker date="1522881000737" expanded="true" signature="2317:3765" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2630:3624" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2684:3614" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3000:3600" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3787:3996" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4016:6748" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4051:4091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4142:4419" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4212:4304" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4321:4409" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4763:5606" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4817:4869" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5004:5056" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5113:5165" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5300:5352" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5619:6741" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5673:5725" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5860:5912" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6135:6332" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6375:6572" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6792:6957" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6829:6928" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7041:9551" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7515:8181" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7558:8171" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7981:8064" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="8191:8363" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
-            <marker date="1522881000737" expanded="true" signature="8431:9545" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
-            <marker date="1522881000737" expanded="true" signature="9645:10091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9729:10059" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9786:10049" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10121:10390" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10156:10204" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10242:10384" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10284:10345" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10498:11364" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10797:11279" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10872:11269" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10903:11031" ph="/* for each point of mask do: ... */" />
+            <marker date="1525400746300" expanded="false" signature="6:124" ph="..." />
+            <marker date="1525400746300" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="251:11469" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1525400746300" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1525400746300" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1525400746300" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7041:9654" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7515:8284" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7558:8274" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8084:8167" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8294:8466" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1525400746300" expanded="true" signature="8534:9648" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1525400746300" expanded="true" signature="9748:10194" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9832:10162" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9889:10152" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10224:10493" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10259:10307" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10345:10487" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10387:10448" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10601:11467" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10900:11382" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10975:11372" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="11006:11134" ph="/* for each point of mask do: ... */" />
           </folding>
         </state>
       </provider>
@@ -633,55 +1296,55 @@
         <state relative-caret-position="595">
           <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding>
-            <marker date="1522881000737" expanded="true" signature="6:124" ph="..." />
-            <marker date="1522881000737" expanded="true" signature="151:205" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="251:11366" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1077:1709" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1157:1703" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
-            <marker date="1522881000737" expanded="true" signature="1633:1693" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1753:2273" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
-            <marker date="1522881000737" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
-            <marker date="1522881000737" expanded="true" signature="2317:3765" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2630:3624" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2684:3614" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3000:3600" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3787:3996" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4016:6748" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4051:4091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4142:4419" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4212:4304" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4321:4409" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4763:5606" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4817:4869" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5004:5056" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5113:5165" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5300:5352" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5619:6741" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5673:5725" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5860:5912" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6135:6332" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6375:6572" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6792:6957" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6829:6928" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7041:9551" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7515:8181" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7558:8171" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7981:8064" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="8191:8363" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
-            <marker date="1522881000737" expanded="true" signature="8431:9545" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
-            <marker date="1522881000737" expanded="true" signature="9645:10091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9729:10059" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9786:10049" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10121:10390" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10156:10204" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10242:10384" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10284:10345" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10498:11364" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10797:11279" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10872:11269" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10903:11031" ph="/* for each point of mask do: ... */" />
+            <marker date="1525400746300" expanded="false" signature="6:124" ph="..." />
+            <marker date="1525400746300" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="251:11469" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1525400746300" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1525400746300" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1525400746300" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7041:9654" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7515:8284" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7558:8274" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8084:8167" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8294:8466" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1525400746300" expanded="true" signature="8534:9648" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1525400746300" expanded="true" signature="9748:10194" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9832:10162" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9889:10152" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10224:10493" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10259:10307" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10345:10487" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10387:10448" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10601:11467" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10900:11382" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10975:11372" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="11006:11134" ph="/* for each point of mask do: ... */" />
           </folding>
         </state>
       </provider>
@@ -719,55 +1382,55 @@
         <state relative-caret-position="595">
           <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding>
-            <marker date="1522881000737" expanded="true" signature="6:124" ph="..." />
-            <marker date="1522881000737" expanded="true" signature="151:205" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="251:11366" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1077:1709" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1157:1703" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
-            <marker date="1522881000737" expanded="true" signature="1633:1693" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1753:2273" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
-            <marker date="1522881000737" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
-            <marker date="1522881000737" expanded="true" signature="2317:3765" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2630:3624" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2684:3614" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3000:3600" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3787:3996" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4016:6748" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4051:4091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4142:4419" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4212:4304" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4321:4409" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4763:5606" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4817:4869" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5004:5056" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5113:5165" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5300:5352" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5619:6741" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5673:5725" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5860:5912" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6135:6332" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6375:6572" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6792:6957" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6829:6928" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7041:9551" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7515:8181" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7558:8171" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7981:8064" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="8191:8363" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
-            <marker date="1522881000737" expanded="true" signature="8431:9545" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
-            <marker date="1522881000737" expanded="true" signature="9645:10091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9729:10059" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9786:10049" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10121:10390" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10156:10204" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10242:10384" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10284:10345" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10498:11364" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10797:11279" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10872:11269" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10903:11031" ph="/* for each point of mask do: ... */" />
+            <marker date="1525400746300" expanded="false" signature="6:124" ph="..." />
+            <marker date="1525400746300" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="251:11469" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1525400746300" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1525400746300" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1525400746300" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7041:9654" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7515:8284" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7558:8274" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8084:8167" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8294:8466" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1525400746300" expanded="true" signature="8534:9648" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1525400746300" expanded="true" signature="9748:10194" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9832:10162" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9889:10152" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10224:10493" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10259:10307" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10345:10487" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10387:10448" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10601:11467" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10900:11382" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10975:11372" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="11006:11134" ph="/* for each point of mask do: ... */" />
           </folding>
         </state>
       </provider>
@@ -798,55 +1461,55 @@
         <state relative-caret-position="4250">
           <caret line="254" column="85" lean-forward="false" selection-start-line="254" selection-start-column="85" selection-end-line="254" selection-end-column="85" />
           <folding>
-            <marker date="1522881000737" expanded="true" signature="6:124" ph="..." />
-            <marker date="1522881000737" expanded="true" signature="151:205" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="251:11366" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1077:1709" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1157:1703" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
-            <marker date="1522881000737" expanded="true" signature="1633:1693" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1753:2273" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
-            <marker date="1522881000737" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
-            <marker date="1522881000737" expanded="true" signature="2317:3765" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2630:3624" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2684:3614" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3000:3600" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3787:3996" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4016:6748" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4051:4091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4142:4419" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4212:4304" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4321:4409" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4763:5606" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4817:4869" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5004:5056" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5113:5165" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5300:5352" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5619:6741" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5673:5725" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5860:5912" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6135:6332" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6375:6572" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6792:6957" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6829:6928" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7041:9551" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7515:8181" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7558:8171" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7981:8064" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="8191:8363" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
-            <marker date="1522881000737" expanded="true" signature="8431:9545" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
-            <marker date="1522881000737" expanded="true" signature="9645:10091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9729:10059" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9786:10049" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10121:10390" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10156:10204" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10242:10384" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10284:10345" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10498:11364" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10797:11279" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10872:11269" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10903:11031" ph="/* for each point of mask do: ... */" />
+            <marker date="1525400746300" expanded="false" signature="6:124" ph="..." />
+            <marker date="1525400746300" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="251:11469" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1525400746300" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1525400746300" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1525400746300" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7041:9654" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7515:8284" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7558:8274" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8084:8167" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8294:8466" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1525400746300" expanded="true" signature="8534:9648" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1525400746300" expanded="true" signature="9748:10194" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9832:10162" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9889:10152" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10224:10493" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10259:10307" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10345:10487" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10387:10448" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10601:11467" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10900:11382" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10975:11372" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="11006:11134" ph="/* for each point of mask do: ... */" />
           </folding>
         </state>
       </provider>
@@ -994,97 +1657,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="86" column="24" lean-forward="false" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        <state relative-caret-position="425">
+          <caret line="257" column="46" lean-forward="false" selection-start-line="257" selection-start-column="46" selection-end-line="257" selection-end-column="46" />
           <folding>
-            <marker date="1524596196679" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
-            <marker date="1524596196679" expanded="true" signature="477:892" ph="/// This class helps you to synchronize position, rotation and scale ... " />
-            <marker date="1524596196679" expanded="true" signature="1058:7872" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="1065:1378" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
-            <marker date="1524596196679" expanded="true" signature="1969:2106" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
-            <marker date="1524596196679" expanded="true" signature="2151:2496" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2514:2542" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2561:2815" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2678:2718" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2842:3213" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="2951:2991" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3241:3492" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3350:3390" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3516:3752" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3622:3662" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="3758:4319" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
-            <marker date="1524596196679" expanded="true" signature="4389:4473" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="4557:5666" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="4931:5000" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5039:5660" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5196:5649" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5276:5369" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5419:5512" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5559:5643" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="5672:5979" ph="/* void OnDrawGizmos() ... */" />
-            <marker date="1524596196679" expanded="true" signature="6020:6568" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="6246:6319" ph="{...}" />
-            <marker date="1524596196679" expanded="true" signature="6574:7870" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
+            <marker date="1525400746300" expanded="false" signature="6:124" ph="..." />
+            <marker date="1525400746300" expanded="true" signature="151:205" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="251:11469" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1077:1709" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1157:1703" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
+            <marker date="1525400746300" expanded="true" signature="1633:1693" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1753:2273" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
+            <marker date="1525400746300" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
+            <marker date="1525400746300" expanded="true" signature="2317:3765" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2630:3624" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="2684:3614" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3000:3600" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="3787:3996" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4016:6748" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4051:4091" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4142:4419" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4212:4304" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4321:4409" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4763:5606" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="4817:4869" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5113:5165" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5300:5352" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5619:6741" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5673:5725" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="5860:5912" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6135:6332" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6375:6572" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6792:6957" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="6829:6928" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7041:9654" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7515:8284" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="7558:8274" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8084:8167" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="8294:8466" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
+            <marker date="1525400746300" expanded="true" signature="8534:9648" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
+            <marker date="1525400746300" expanded="true" signature="9748:10194" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9832:10162" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="9889:10152" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10224:10493" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10259:10307" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10345:10487" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10387:10448" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10601:11467" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10900:11382" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="10975:11372" ph="{...}" />
+            <marker date="1525400746300" expanded="true" signature="11006:11134" ph="/* for each point of mask do: ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/KinectView/Scripts/DepthSourceView.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="262" column="0" lean-forward="true" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+        <state relative-caret-position="595">
+          <caret line="99" column="43" lean-forward="false" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
           <folding>
-            <marker date="1522881000737" expanded="true" signature="6:124" ph="..." />
-            <marker date="1522881000737" expanded="true" signature="151:205" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="251:11366" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1077:1709" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1157:1703" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1300:1590" ph="/* Downsample to lower resolution ... */" />
-            <marker date="1522881000737" expanded="true" signature="1633:1693" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1753:2273" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="1769:1908" ph="/* xRes = 513 yRes = 513 ... */" />
-            <marker date="1522881000737" expanded="true" signature="1976:2266" ph="/* int xBase = 125; ... */" />
-            <marker date="1522881000737" expanded="true" signature="2317:3765" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2630:3624" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="2684:3614" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3000:3600" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="3787:3996" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4016:6748" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4051:4091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4142:4419" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4212:4304" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4321:4409" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4763:5606" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="4817:4869" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5004:5056" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5113:5165" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5300:5352" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5619:6741" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5673:5725" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="5860:5912" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6135:6332" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6375:6572" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6792:6957" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="6829:6928" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7041:9551" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7515:8181" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7558:8171" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="7981:8064" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="8191:8363" ph="/* Debug.Log(1f - depthData[200 + (200 * 512)] / 2460f); ... */" />
-            <marker date="1522881000737" expanded="true" signature="8431:9545" ph="/* ColorSpacePoint[] colorSpace = new ColorSpacePoint[depthData.Length]; ... */" />
-            <marker date="1522881000737" expanded="true" signature="9645:10091" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9729:10059" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="9786:10049" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10121:10390" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10156:10204" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10242:10384" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10284:10345" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10498:11364" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10797:11279" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10872:11269" ph="{...}" />
-            <marker date="1522881000737" expanded="true" signature="10903:11031" ph="/* for each point of mask do: ... */" />
+            <marker date="1524862425339" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
+            <marker date="1524862425339" expanded="false" signature="463:489" ph="..." />
+            <marker date="1524862425339" expanded="true" signature="491:906" ph="/// This class helps you to synchronize position, rotation and scale ... " />
+            <marker date="1524862425339" expanded="true" signature="1072:8632" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="1079:1392" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
+            <marker date="1524862425339" expanded="true" signature="1983:2120" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
+            <marker date="1524862425339" expanded="true" signature="2165:2510" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2528:2556" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2575:2829" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2692:2732" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2856:3739" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="2965:3005" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3767:4076" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="3876:3916" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4100:4512" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4206:4246" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="4518:5079" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
+            <marker date="1524862425339" expanded="true" signature="5149:5233" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5317:6426" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5691:5760" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5799:6420" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="5956:6409" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6036:6129" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6179:6272" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6319:6403" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="6432:6739" ph="/* void OnDrawGizmos() ... */" />
+            <marker date="1524862425339" expanded="true" signature="6780:7328" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7006:7079" ph="{...}" />
+            <marker date="1524862425339" expanded="true" signature="7334:8630" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewDrawing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <marker date="1525324238885" expanded="true" signature="1:455" ph="/*   Component to synchronize Transforms via PUN PhotonView. ... */" />
+            <marker date="1525324238885" expanded="false" signature="463:489" ph="..." />
+            <marker date="1525324238885" expanded="true" signature="491:906" ph="/// This class helps you to synchronize position, rotation and scale ... " />
+            <marker date="1525324238885" expanded="true" signature="1087:8413" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="1094:1407" ph="/* Since this component is very complex, we seperated it into multiple objects. ... */" />
+            <marker date="1525324238885" expanded="true" signature="1998:2135" ph="/// Flag to skip initial data when Object is instantiated and rely on the first deserialized data instead. ... " />
+            <marker date="1525324238885" expanded="true" signature="2180:2525" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="2543:2571" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="2590:2844" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="2707:2747" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="2871:3754" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="2980:3020" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="3782:4033" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="3891:3931" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="4057:4293" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="4163:4203" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="4299:4860" ph="/// These values are synchronized to the remote objects if the interpolation mode ... " />
+            <marker date="1525324238885" expanded="true" signature="4930:5014" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="5098:6207" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="5472:5541" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="5580:6201" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="5737:6190" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="5817:5910" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="5960:6053" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="6100:6184" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="6213:6520" ph="/* void OnDrawGizmos() ... */" />
+            <marker date="1525324238885" expanded="true" signature="6561:7109" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="6787:6860" ph="{...}" />
+            <marker date="1525324238885" expanded="true" signature="7115:8411" ph="/* void DoDrawNetworkPositionGizmo() ... */" />
           </folding>
         </state>
       </provider>

@@ -742,6 +742,7 @@
                 <e p="PhotonRigidbody2DView.cs" t="Include" />
                 <e p="PhotonRigidbodyView.cs" t="Include" />
                 <e p="PhotonTransformView.cs" t="Include" />
+                <e p="PhotonTransformViewDrawing.cs" t="Include" />
                 <e p="PhotonTransformViewPositionControl.cs" t="Include" />
                 <e p="PhotonTransformViewPositionModel.cs" t="Include" />
                 <e p="PhotonTransformViewRotationControl.cs" t="Include" />
